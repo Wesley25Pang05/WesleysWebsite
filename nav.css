@@ -1,4 +1,4 @@
-nav {
+body nav {
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
@@ -9,20 +9,20 @@ nav {
     font-family: sans-serif;
 }
 
-nav ul {
+body nav ul {
     margin-top: 0%;
     margin-bottom: 0%;
     padding-left: 0%;
     padding-right: 0%;
 }
 
-nav ul li {
+body nav ul li {
     display: inline-block;
     list-style: none;
     margin: 1% 25px;
 }
 
-nav ul li a {
+body nav ul li a {
     color: rgb(99, 99, 99);
     font-weight: bold;
     text-decoration: none;

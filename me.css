@@ -1,15 +1,18 @@
 me {
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
-    margin-bottom: 1%;
-    margin-left: 12%;
-    margin-right: 16%;
-    height: 720px;
+    background-image: url('background.jpg');
+    background-color: black;
+    background-size: cover;
+    color: white;
     font-family: sans-serif;
 }
 
 me section {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 12%;
+    margin-right: 16%;
     padding-top: 10%;
     padding-right: 50%;
 }
@@ -21,6 +24,6 @@ me section h2 {
 }
 
 me section p {
-    color: rgb(64, 64, 64);
     text-align: justify;
+    font-size: 80%;
 }

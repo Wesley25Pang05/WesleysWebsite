@@ -1,0 +1,24 @@
+.footer {
+    background: black;
+    padding: 0%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .social-icons a {
+    margin: 0 0.9%;
+}
+
+.footer img {
+    width: 3%;
+    height: 3%;
+    background-color: rgb(150, 150, 150);
+    padding-left: 0.3%;
+    padding-top: 0.3%;
+    padding-right: 0.3%;
+    padding-bottom: 0.3%;
+    filter: grayscale(100%) invert(100%) contrast(75%) brightness(75%);
+    border-radius: 15px;
+}
