@@ -1,0 +1,38 @@
+project .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    height: 500px;
+    background-image: url('project1.jpg');
+    background-color: black;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    align-items: center;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+
+project section {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    margin-right: 6%;
+    padding-top: 5%;
+    padding-right: 20%;
+}
+
+project section h2 {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 300%;
+}
+
+project section p {
+    text-align: justify;
+    font-size: 80%;
+}
+
+project img {
+    height: 400px;
+}
