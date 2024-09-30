@@ -1,7 +1,7 @@
 me {
     display: flex;
     justify-content: space-between;
-    background-image: url('background.jpg');
+    background-image: url('imgs/background.jpg');
     background-color: black;
     background-size: cover;
     color: white;
