@@ -3,38 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Wesley's Portfolio</title>
-    <style> hr { border: none; height: 0px; } </style>
+    <title>Wesley's Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="project.css">
-    <link rel="stylesheet" href="footer.css">
 </head>
+
 <body>
     <nav>
-        <section>
-            <ul>
-                <li><a href="./"> HOME </a></li>
-                <li><a href="./journey.html"> JOURNEY </a></li>
-                <li><a href="./projects.html"> PROJECTS </a></li>
-                <li><a href="./faq.html"> FAQ </a></li>
-                <li><a href="./about.html"> ABOUT </a></li>
-                <li><a href="./contact.html"> CONTACT </a></li>
-            </ul>
-        </section>
-    </nav>
+    <div class="nav-container">
+        <div class="name">
+            <a href="./">WESLEY PANG</a>
+        </div>
+        <ul>
+            <li><a href="./">HOME</a></li>
+            <li><a href="./experience.html">EXPERIENCE</a></li>
+            <li><a href="./projects.html">PROJECTS</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</nav>
     <project>
         <div class="grid-container">
             <div class="grid-item">
                 <section>
-                    <h1>HTML, CSS, JavaScript | Individual Project</h1>
-                    <h2>Blackjack</h2>
-                    <p>WIP
-                        <br><br>Started in: September 2024<br>Last updated: September 2024</br></br></br></p>
+                    <h1>TypeScript · Software Project Management · Front-End Development · Software Design · Game Development</h1>
+                    <h2>Custom Editable Tower Defense Game</h2>
+                    <p>This project was one I wanted to work on for a while. I recently learned TypeScript a little before I started working on this project and decided to use Phaser to create pathing, enemies, and towers. This however is not the traditional tower defense game. Currently, there is a theme with this Tower Defense Game, but it can easily be changed with just a few clicks and images. The enemies have health, the pathing can easily be changed, and the towers can be changed within a few seconds. There are custom classes for the Towers as a base to help others create their own towers easily, along with custom stats of the enemies and coordinates for the pathing. It is one of the largest projects I have done, with over two thousand lines of code excluding each tower, which includes about three hundred lines each. This, however, is a private project and will be only shared during interviews.
+                        <br><br>Started in: June 2025<br>Last updated: November 2025</br></br></br></p>
                 </section>
             </div>
             <div class="grid-item">
-                <img src="imgs/blackjack.png" alt="Link to App">
+                <img src="imgs/towerDefense.png" alt="No image available currently, Github is private, read description">
             </div>
         </div>
     </project>
@@ -43,15 +43,15 @@
         <div class="grid-container">
             <div class="grid-item">
                 <section>
-                    <h1>HTML, CSS, JavaScript | Individual Project</h1>
-                    <h2>Minesweeper</h2>
-                    <p>WIP
-                        <br><br>Started in: September 2024<br>Last updated: September 2024</br></br></br></p>
+                    <h1>Python · OpenCV · Back-end Operations · Automation · Computer Vision</h1>
+                    <h2>Automated Multiplayer Word-Guessing Bot</h2>
+                    <p>This project was inspired by an old game called Bomb Party that people play over the internet. You may have seen variations of this game, but basically, you are given two or three letters, and you need to find words that include those letters consecutively. I decided to make a bot that can automatically input words that are correct, with adjustable speeds and length. Speed was important because if you do not guess in time, you end up losing lives. Length was important because using almost all letters in the game, you regain a life. I programmed this mostly using Python's pyautogui and OpenCV.
+                        <br><br>Started in: November 2024<br>Last updated: January 2025</br></br></br></p>
                 </section>
             </div>
             <div class="grid-item">
-                <a href="https://github.com/Wesley25Pang05/customMinesweeperBoards" target="_blank">
-                    <img src="imgs/minesweeper.png" alt="Link to App">
+                <a href="https://github.com/Wesley25Pang05/BombPartySolver" target="_blank">
+                    <img src="imgs/bombpartysolver.png" alt="No image available currently, Link to App">
                 </a>
             </div>
         </div>
@@ -61,18 +61,15 @@
         <div class="grid-container">
             <div class="grid-item">
                 <section>
-                    <h1>HTML, CSS, JavaScript<br>Individual Project</br></h1>
-                    <h2>Chess</h2>
-                    <p>This was a project I made back in high school, where I wanted to challenge myself with a harder project.
-                        I then fell in love with the game of chess and decided, might as well try to make one.
-                        It is a 1v1 chess game, so bring a friend, and can detect everything, like checks, and where they can move.
-                        However, for checkmate, it is a WIP, but as of right now, no one can move pieces if that happens.
-                        <br><br>Started in: May 2023<br>Last updated: June 2023</br></br></br></p>
+                    <h1>JavaScript · HTML · Front-End Design · Front-end Coding · Game Development</h1>
+                    <h2>Two Player Chess App</h2>
+                    <p>One of my large high school projects is a game of chess built with JavaScript and HTML. The two-user game was started when I was in my junior year, and that was when I went ahead to teach myself JavaScript and substantial HTML from home, motivated by my growing interest in chess; after all, I played chess almost every day. The game is a mixture of all the basic chess functionalities: the pawns get moves; the king and rook go together; en passant and check get detected. Checkmate is still rather buggy, but once you are in checkmate, you can no longer make your move. I wanted to go one step ahead of myself to work with a more complex project, which made me think of a 1-vs-1 chess game, for my love of coding and love for the game. In the future, I have plans to create a chess engine like Stockfish, but for now, all things equal, I would like to be a master of multiplayer chess.
+                        <br><br>Started in: May 2023<br>Last updated: July 2023</br></br></br></p>
                 </section>
             </div>
             <div class="grid-item">
                 <a href="https://github.com/Wesley25Pang05/chess2023" target="_blank">
-                    <img src="imgs/chess.png" alt="Link to App">
+                    <img src="imgs/chess.png" alt="No image available currently, Link to App">
                 </a>
             </div>
         </div>
@@ -82,18 +79,15 @@
         <div class="grid-container">
             <div class="grid-item">
                 <section>
-                    <h1>Java with JDA, a discord API<br>Individual Project</br></h1>
-                    <h2>Wordle on Discord</h2>
-                    <p>When wordle started becoming popular, I decided to try and make wordle as my first project.
-                        I also then realized I didn't want to play this myself, so I introduced it into some discord servers
-                        for multiple players to play and help each other in a wordle game. To start, you add a bot to your
-                        server, run the code with the bot using the API Key, then use the commands, play wordle, guess "word"
+                    <h1>Java · Discord API · JDA · Back-end Operations · Application Programming Interfaces (API)</h1>
+                    <h2>Wordle with Discord Bot Development</h2>
+                    <p>In my sophomore year in high school, I developed a Java program that was based on the popular online game Wordle and the Discord platform. I planned to create a project that was both entertaining and useful in the Discord world, where docs are being created all the time just for performing tasks using commands. I developed a Discord bot that randomly generates five-letter words for the users to play Wordle with, and at the same time, it runs it gathers data so everyone can play their own game. I was not willing to be the only one playing, so I introduced the bot to several Discord servers where players could then join together and support one another. To begin with, the users invite the bot to their server, run the code with the bot using an API key, and then they can issue commands such as play Wordle or guess "word". This project was made before Discord added its own Wordle gaming system.
                         <br><br>Started in: May 2022<br>Last updated: September 2024</br></br></br></p>
                 </section>
             </div>
             <div class="grid-item">
                 <a href="https://github.com/Wesley25Pang05/wordleDiscordJDA" target="_blank">
-                    <img src="imgs/wordle.png" alt="Link to App">
+                    <img src="imgs/wordle.png" alt="No image available currently, Link to App">
                 </a>
             </div>
         </div>
