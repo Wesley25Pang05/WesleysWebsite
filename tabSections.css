@@ -1,0 +1,138 @@
+@media (max-width: 768px) {
+    tabSections .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 14px;
+      min-height: auto;
+      height: auto;
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      align-items: start;
+      padding: 12px;
+  }
+  
+  tabSections section {
+      margin-top: 2%;
+      margin-bottom: 5%;
+      margin-left: 8%;
+      margin-right: 6%;
+      padding-top: 5%;
+      padding-right: 20%;
+      font-size: 1.2vw;
+  }
+  
+  tabSections section h2 {
+      margin-top: 0%;
+      margin-bottom: 0%;
+      font-size: 6vw;
+  }
+  
+  tabSections section p {
+      text-align: justify;
+      font-size: 1.6vw;
+  }
+  
+  tabSections img {
+      width: 35vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    tabSections .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 16px;
+      min-height: auto;
+      height: auto;
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      align-items: start;
+      padding: 16px;
+  }
+  
+  tabSections section {
+      margin-top: 2%;
+      margin-bottom: 5%;
+      margin-left: 8%;
+      margin-right: 6%;
+      padding-top: 5%;
+      padding-right: 20%;
+      font-size: 1.2vw;
+  }
+  
+  tabSections section h2 {
+      margin-top: 0%;
+      margin-bottom: 0%;
+      font-size: 6vw;
+  }
+  
+  tabSections section p {
+      text-align: justify;
+      font-size: 2.4vw;
+  }
+  
+  tabSections img {
+      width: 35vw;
+  }
+}
+
+tabSections .grid-container {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+tabSections img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+tabSections section {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+@media (min-width: 1025px) {
+    tabSections .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 22px;
+      min-height: auto;
+      height: auto;
+      background-color: black;
+      color: white;
+      font-family: sans-serif;
+      align-items: center;
+      padding: 24px;
+  }
+  
+  tabSections section {
+      margin-top: 2%;
+      margin-bottom: 5%;
+      margin-left: 8%;
+      margin-right: 6%;
+      padding-top: 5%;
+      padding-right: 20%;
+      font-size: 0.4vw;
+  }
+  
+  tabSections section h2 {
+      margin-top: 0%;
+      margin-bottom: 0%;
+      font-size: 2.4vw;
+  }
+  
+  tabSections section p {
+      text-align: justify;
+      font-size: 0.8vw;
+  }
+  
+  tabSections img {
+      width: 35vw;
+  }
+}
